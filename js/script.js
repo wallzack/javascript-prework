@@ -22,9 +22,9 @@ let playerMove = 'nieznany ruch';
 
 if(playerInput == '1'){
   playerMove = 'kamień';
-} if (playerInput == '2'){
+} else if (playerInput == '2'){
     playerMove = 'papier';
-} if (playerInput == '3')[
+} else if (playerInput == '3')[
     playerMove = 'nożyce'
 ]
 
