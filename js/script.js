@@ -20,9 +20,6 @@ console.log('Gracz wpisał: ' + playerInput);
 let playerMove = getMoveName(playerInput);
 printMessage('Twój ruch to: ' + playerMove);
 
-let argComputerMove = computerMove
-let argPlayerMove = playerMove
-
 function displayResult(argComputerMove, argPlayerMove){
 
 if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
@@ -47,4 +44,4 @@ if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
       printMessage('Błąd')
   }
 }
-displayResult(argComputerMove, argPlayerMove)
+displayResult(computerMove, playerMove)
